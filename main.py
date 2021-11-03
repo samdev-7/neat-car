@@ -13,7 +13,6 @@ SCALED_SCREEN = pygame.display.set_mode(
     (SCREEN_WIDTH * SCALE, SCREEN_HEIGHT * SCALE))
 SCREEN = pygame.surface.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
 TEXT_SCREEN = pygame.surface.Surface((SCREEN_WIDTH, SCREEN_HEIGHT),pygame.SRCALPHA, 32)
-#TRACK = pygame.image.load('Assets/track.png')
 FONT = pygame.font.Font('Assets/FreeMono.ttf', 25)
 DRAWING = SCREEN.copy()
 show_debug = True
